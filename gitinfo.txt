@@ -1,18 +1,67 @@
+Centrale kommandoer
+-------------------
+
+git init 
+lav et nyt repository.
+
+git clone git@github.com:/thorbjornmartsum/my_repo1.git
+henter et repository
+
+git branch
+viser branches
+
+git branch -d/-D branchname
+sletter branch med navn 'branchname'
+
+git checkout -b branchname
+opretter et branch med 'branchname' og skifter til dette
+
+git checkout master
+skifter branch til master
+
+git add filename
+fortæller git at jeg har rettet denne/tilføjet denne fil
+
+git pull
+henter nyeste filer fra remote.
+
+git push origin localbranch:remotebranch
+skubber filer til remote (github)
+(localbranch kan være HEAD)
+
+git push origin localbranch:remotebranch
+
+------------------------------------------------------------------
+
+git rebase
+
+--------------------------------------------------------------------
+
+
 Man skal lave nogle nøgler - og have git:
 
 https://help.github.com/articles/generating-ssh-keys#platform-windows
-
 http://msysgit.github.io/
-
 https://help.github.com/articles/generating-ssh-keys
 
 --------------------------------------------
+Værktøjer til git
 
-git clone git@github.com:/tmartsum/testrepo.git
-git push origin localbranch:remotebranch
+Tortoisegit
+qgit
+---------------------------------------------------
 
----------------------------------------------
 
-* checkout -b  (og det kan gentages)
-* rebase af branches
+Subversion kan ting som git ikke kan.
 
+* Tomme mapper
+* Update en mappe
+* låse filer
+
+https://codereview.qt-project.org/#change,67469
+https://codereview.qt-project.org/#change,60270
+
+
+Hør mere om git ved at søge på youtub git Linus
+
+------------------------------------------------

@@ -1,0 +1,18 @@
+Man skal lave nogle nøgler - og have git:
+
+https://help.github.com/articles/generating-ssh-keys#platform-windows
+
+http://msysgit.github.io/
+
+https://help.github.com/articles/generating-ssh-keys
+
+--------------------------------------------
+
+git clone git@github.com:/tmartsum/testrepo.git
+git push origin localbranch:remotebranch
+
+---------------------------------------------
+
+* checkout -b  (og det kan gentages)
+* rebase af branches
+

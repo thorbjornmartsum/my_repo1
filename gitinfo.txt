@@ -23,7 +23,7 @@ skifter branch til master
 git add filename
 fortæller git at jeg har rettet denne/tilføjet denne fil
 
-git pull
+git pull (origin branch_name)
 henter nyeste filer fra remote.
 
 git push origin localbranch:remotebranch

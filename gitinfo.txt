@@ -1,43 +1,58 @@
 Centrale kommandoer
 -------------------
 
-git init 
+* git init 
 lav et nyt repository.
 
-git clone git@github.com:/thorbjornmartsum/my_repo1.git
+
+* git clone git@github.com:/thorbjornmartsum/my_repo1.git
 henter et repository
 
-git branch
+
+* git branch
 viser branches
 
-git branch -d/-D branchname
+
+* git branch -d/-D branchname
 sletter branch med navn 'branchname'
 
-git checkout -b branchname
+
+* git checkout -b branchname
 opretter et branch med 'branchname' og skifter til dette
 
-git checkout master
-skifter branch til master
-(man bruger ofte ordet HEAD)
 
-git add filename
+* git checkout master
+skifter branch til master
+
+Bemærk
+a) man bruger ofte ordet 'HEAD' om ens 'position'
+b) ved at skifte branch kan man se modificerede filer 
+(dog ikke nye filer - men man kan starte med at oprette filer og lave add)
+
+
+* git add filename
 fortæller git at jeg har rettet denne/tilføjet denne fil
 
-git pull (origin branch_name)
+
+* git pull (origin branch_name)
 henter nyeste filer fra remote.
 
-git push origin localbranch:remotebranch
+
+* git push origin localbranch:remotebranch
 skubber filer til remote (github)
 (localbranch kan være HEAD)
 
-git push origin localbranch:remotebranch
 
-------------------------------------------------------------------
+* git push origin localbranch:remotebranch
 
-git rebase
+* git rebase
 
---------------------------------------------------------------------
+* git reset 
+git reset --hard bracnh/sha
+soft-reset - man 
+hard-reset
 
+--------------------------------------------------------------------------
 
 Man skal lave nogle nøgler - og have git:
 
@@ -48,20 +63,19 @@ https://help.github.com/articles/generating-ssh-keys
 --------------------------------------------
 Værktøjer til git
 
-Tortoisegit
+Tortoise git
 qgit
 ---------------------------------------------------
-
 
 Subversion kan ting som git ikke kan.
 
 * Tomme mapper
-* Update en mappe
+* Update en mappe (med ikke alle mapper i projektet)
 * låse filer
+(* påstået bedre håndtering af binære filer)
 
 https://codereview.qt-project.org/#change,67469
 https://codereview.qt-project.org/#change,60270
-
 
 Hør mere om git ved at søge på youtub git Linus
 

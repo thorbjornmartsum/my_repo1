@@ -18,6 +18,7 @@ opretter et branch med 'branchname' og skifter til dette
 
 git checkout master
 skifter branch til master
+(man bruger ofte ordet HEAD)
 
 git add filename
 fortæller git at jeg har rettet denne/tilføjet denne fil
